@@ -24,10 +24,10 @@
       ajaxRequest.open(method,URL,async,userName,password);
       </pre>
 
-+ 其中,method是和url是必须的参数,其他的是可选的.
-+ async是否异步请求,默认值为ture,所以一般不用填写.
-+ method的值一般有GET,POST,HEAD,PUT,DELETE等等.
-+ GET 还是 POST？
+      + 其中,method是和url是必须的参数,其他的是可选的.
+      + async是否异步请求,默认值为ture,所以一般不用填写.
+      + method的值一般有GET,POST,HEAD,PUT,DELETE等等.
+      + GET 还是 POST？
       与 POST 相比，GET 更简单也更快，并且在大部分情况下都能用。
       然而，在以下情况中，请使用 POST 请求：
       无法使用缓存文件（更新服务器上的文件或数据库）
